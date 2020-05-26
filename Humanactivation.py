@@ -38,7 +38,7 @@ dftrain = pd.DataFrame( np.concatenate( (df_train_accel_phone.values, df_train_a
 dftrain.columns=columns
 dftrain.shape
 
-
+#loading test dataset
 def fetch_test_data(accelorgyro,phoneorwatch):
     df=pd.DataFrame()
     for i in range(20,34):
