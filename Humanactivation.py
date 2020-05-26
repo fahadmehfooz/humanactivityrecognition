@@ -10,7 +10,7 @@ from tensorflow.keras.optimizers import Adam
 
 columns=['user','activity','time','x','y','z']
 
-
+#fetching load datasets
 def fetch_train_data(accelorgyro,phoneorwatch):
     df=pd.DataFrame()
     for i in range(20):
